@@ -33,9 +33,11 @@ Time Scale Menu -> TSM world time scale (20)
 more detail on how enemy preparedness works can be found on the metal gear wiki here:
 https://metalgear.fandom.com/wiki/Revenge_System_(enemy_preparedness)
 all options can be found under Enemy Prep Menu -> Custom prep menu, after setting prep modes to Custom Prep
+
 ----------------------------------------------------------------
 Reset Enemy Prep:
 "Enemy Prep Menu -> Reset Enemy Preparedness Levels"
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Fulton Response)
 LV0:
@@ -46,6 +48,7 @@ LV2:
 Enemy Prep Menu -> Soldier Abilities -> FULTON_MIN (High)
 LV3:
 Enemy Prep Menu -> Soldier Abilities -> FULTON_MIN (Special)
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Headshot Response)
 Enemy Prep Menu -> Headgear Deployment -> HELMET_MIN
@@ -56,6 +59,7 @@ LV2: 20%
 LV3: 30%
 LV5: 50%
 LV7: 70%
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Covert Actions Response)
 
@@ -80,6 +84,7 @@ Enemy Prep Menu -> Soldier Abilities -> HOLDUP_MIN (High)
 
 LV5:
 Enemy Prep Menu -> Soldier Abilities -> STEALTH_MIN (Special)
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Combat Response)
 
@@ -109,6 +114,7 @@ Enemy Prep Menu -> Soldier Abilities -> COMBAT_MIN (High)
 LV5:
 Enemy Prep Menu -> Soldier Abilities -> COMBAT_MIN (SPECIAL)
 Enemy Prep Menu -> Vehicle reinforcement level min (BLACK_SUPER_REINFORCE)
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Nighttime Response)
 
@@ -127,6 +133,7 @@ Enemy Prep Menu -> Weapon Deployment -> GUNLIGHT_MIN (75%)
 LV3:
 Enemy Prep Menu -> Headgear Deployment -> NVG_MIN (74%)
 Enemy Prep Menu -> Weapon Deployment -> GUNLIGHT_MIN (75%)
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Sniper Response)
 
@@ -139,6 +146,7 @@ Enemy Prep Menu -> Weapon Deployment -> SNIPER_MIN (20%)
 LV2:
 Enemy Prep Menu -> Weapon Deployment -> SNIPER_MIN (30%)
 Enemy Prep Menu -> Weapon Strength Menu -> STRONG_SNIPER_MIN (on)
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Vehicle Response)
 
@@ -155,9 +163,11 @@ Enemy Prep Menu -> Weapon Strength Menu -> STRONG_MISSILE_MIN (on)
 LV3:
 Enemy Prep Menu -> Weapon Deployment -> MISSILE_MIN (20%)
 Enemy Prep Menu -> Weapon Strength Menu -> STRONG_MISSILE_MIN (on)
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Tranquilizer Response)
 No Effect can be changed in IH, but there is a level to it check wiki for details
+
 ----------------------------------------------------------------
 Enemy Preparedness Trap (Smoke/Gas Response Response)
 Enemy Prep Menu -> Headgear Deployment -> GAS_MASK_MIN
