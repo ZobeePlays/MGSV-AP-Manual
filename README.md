@@ -9,6 +9,7 @@ https://forms.gle/YGfb3rXkiFW2fPEr9
 
 Possible Future additions:
 Player Restrictions Menu -> Disable mission support-menus menu -> can lock the ability to use the options in the support menu like supply drops or heli attacks
+
 ----------------------------------------------------------------
 (Note that most of these hooks only work when in the ACC)
 Important Items:
@@ -18,6 +19,7 @@ Player Restrictions Menu -> Disable fulton action -> Used to completely disable 
 Player Restrictions Menu -> Fulton levels menu -> Used to Set Fulton ammo Levels (and wormhole)
 Player Restrictions Menu -> Hand Abilities levels menu -> Used to Force Hand Upgrades to lower or higher ranks
 Player Restrictions Menu -> Item Level Menu -> To Force iDROID and INT Scope levels
+
 ----------------------------------------------------------------
 Traps:
 Demonism Trap:
