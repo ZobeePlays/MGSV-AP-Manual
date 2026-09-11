@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "MetalGearSolidVThePhantomPain",
+  "creator": "ZobeePlays",
+  "death_link": true,
+  "filler_item_name": "Rough Diamond (L)",
+  "starting_items": [
+    {
+      "item_categories": [
+        "Starting Mission"
+      ],
+      "random": 1
+    }
+  ]
+}

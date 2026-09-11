@@ -1,0 +1,440 @@
+{
+  "Online": {
+    "hidden": true,
+    "yaml_option": [
+      "Online_Items_and_Checks"
+    ]
+  },
+  "Mission Unlocks": {
+    "hidden": true,
+    "yaml_option": [
+      "!Disable_Mission_Unlocks"
+    ]
+    
+  },
+  "Repeat Missions": {
+    "hidden": true,
+    "yaml_option": [
+      "Repeat_Missions"
+    ]
+  },
+  "Mission Tasks": {
+    "yaml_option": [
+      "Mission_Tasks"
+    ]
+  },
+  "Development": {
+    "yaml_option": [
+      "Include_Development_Tree"
+    ]
+  },
+  "S Rank Clears": {
+    "yaml_option": [
+      "Include_S_Rank_Clears"
+    ]
+  },
+  "Chapter 2": {
+    "hidden": true,
+    "yaml_option": [
+      "Include_Chapter_2"
+    ]
+  },
+  "Mission 0": {
+    "hidden": false,
+    "yaml_option": [
+      "!Skip_Mission_0"
+    ]
+  },
+  "Paz": {
+    "hidden": true,
+    "yaml_option": [
+      "Require_Paz"
+    ]
+  },
+  "Combat Deployment": {
+    "hidden": false,
+    "yaml_option": [
+      "Include_Combat_Deployment"
+    ]
+  },
+  "Small Diamonds": {
+    "hidden": false,
+    "yaml_option": [
+      "Include_Small_Diamonds"
+    ]
+  },
+  "Large Diamonds": {
+    "hidden": false,
+    "yaml_option": [
+      "Include_Large_Diamonds"
+    ]
+  },
+  "Posters": {
+    "hidden": false,
+    "yaml_option": [
+      "Include_Posters"
+    ]
+  },
+  "Cassettes": {
+    "hidden": false,
+    "yaml_option": [
+      "Include_Cassettes"
+    ]
+  },
+  "Blueprint": {
+    "hidden": false,
+    "yaml_option": [
+      "Include_Blueprints"
+    ]
+  },
+  "Shipping Labels": {
+    "hidden": false,
+    "yaml_option": [
+      "Include_Shipping_Labels"
+    ]
+  },
+  "Cargo Containers": {
+    "hidden": true,
+    "yaml_option": [
+      "Include_Cargo_Containers"
+    ]
+  },
+  "Animals": {
+    "hidden": true,
+    "yaml_option": [
+      "Include_Animals"
+    ]
+  },
+  "Free Roam Exclusives": {
+    "hidden": false,
+    "yaml_option": [
+      "!Require Free Roam"
+    ]
+  },
+  "WIP": {
+    "hidden": false,
+    "yaml_option": [
+      "WIP Locations"
+    ]
+  },
+  "DLC": {
+    "hidden": true,
+    "yaml_option": [
+      "DLC_Items_and_Checks"
+    ]
+  },
+  "D-Walker Sub Weapon": {
+    "hidden": true
+  },
+  "D-Walker Heads": {
+    "hidden": true
+  },
+  "D-Walker Arms": {
+    "hidden": true
+  },
+  "Quiet Guns": {
+    "hidden": true
+  },
+  "Quiet's Uniforms": {
+    "hidden": true
+  },
+  "Starting Mission": {
+    "hidden": true
+  },
+
+    "Progressive Weapons": {
+    "yaml_option": [
+      "ProgressiveWeapons"
+    ],
+    "hidden": true
+  },
+    "Split Weapons": {
+    "yaml_option": [
+      "SplitWeapons"
+    ],
+    "hidden": true
+  },
+    "Combined Weapons": {
+    "yaml_option": [
+      "CombinedWeapons"
+    ],
+    "hidden": true
+  },
+    "Static Progressive Weapons": {
+    "yaml_option": [
+      "StaticProgressiveWeapons"
+    ],
+    "hidden": true
+  },
+    "StaticProgCombo": {
+    "yaml_option": [
+      "StaticProgCombo"
+    ],
+    "hidden": true
+  },
+  
+    "Weapon Categories": {
+    "yaml_option": [
+      "WeaponCategories"
+    ],
+    "hidden": true
+  },
+    "Enemy Preparedness": {
+    "yaml_option": [
+      "Enemy_Preparedness_Traps"
+    ],
+    "hidden": false
+  },
+    "Dismiss Buddy Trap": {
+    "yaml_option": [
+      "Dismiss_Buddy_Trap"
+    ],
+    "hidden": true
+  },
+    "Demonism Trap": {
+    "yaml_option": [
+      "Demonism_Trap"
+    ],
+    "hidden": true
+  },
+    "Stink Trap": {
+    "yaml_option": [
+      "Stink_Trap"
+    ],
+    "hidden": true
+  },
+
+    "Base Development Unit": {
+    "hidden": true
+  },
+    "Development Teams1": {
+    "yaml_option": [
+      "Development Teams1"
+    ],
+    "hidden": true
+  },
+    "Combat Unit": {
+    "hidden": true
+  },
+    "Security Team": {
+    "hidden": true
+  },
+    "R&D Team": {
+    "hidden": true
+  },
+    "Support Unit": {
+    "hidden": true
+  },
+    "Intel Team": {
+    "hidden": true
+  },
+    "Medical Team": {
+    "hidden": true
+  },
+
+  
+    "Development Teams2": {
+    "yaml_option": [
+      "Development Teams2"
+    ],
+    "hidden": true
+  },
+    "Combat Unit2": {
+    "hidden": true
+  },
+    "Security Team2": {
+    "hidden": true
+  },
+    "R&D Team2": {
+    "hidden": true
+  },
+    "Support Unit2": {
+    "hidden": true
+  },
+    "Intel Team2": {
+    "hidden": true
+  },
+    "Medical Team2": {
+    "hidden": true
+  },
+
+
+    "Development Teams3": {
+    "yaml_option": [
+      "Development Teams3"
+    ],
+    "hidden": true
+  },
+    "Combat Unit3": {
+    "hidden": true
+  },
+    "Security Team3": {
+    "hidden": true
+  },
+    "R&D Team3": {
+    "hidden": true
+  },
+    "Support Unit3": {
+    "hidden": true
+  },
+    "Intel Team3": {
+    "hidden": true
+  },
+    "Medical Team3": {
+    "hidden": true
+  },
+
+
+    "Development Teams5": {
+    "yaml_option": [
+      "Development Teams5"
+    ],
+    "hidden": true
+  },
+    "Combat Unit5": {
+    "hidden": true
+  },
+    "Security Team5": {
+    "hidden": true
+  },
+    "R&D Team5": {
+    "hidden": true
+  },
+    "Support Unit5": {
+    "hidden": true
+  },
+    "Intel Team5": {
+    "hidden": true
+  },
+    "Medical Team5": {
+    "hidden": true
+  },
+
+
+    "Development Teams10": {
+    "yaml_option": [
+      "Development Teams10"
+    ],
+    "hidden": true
+  },
+    "Combat Unit10": {
+    "hidden": true
+  },
+    "Security Team10": {
+    "hidden": true
+  },
+    "R&D Team10": {
+    "hidden": true
+  },
+    "Support Unit10": {
+    "hidden": true
+  },
+    "Intel Team10": {
+    "hidden": true
+  },
+    "Medical Team10": {
+    "hidden": true
+  },
+
+
+    "Development Teams162": {
+    "yaml_option": [
+      "Development Teams162"
+    ],
+    "hidden": true
+  },
+    "Combat Unit162": {
+    "hidden": true
+  },
+    "Security Team162": {
+    "hidden": true
+  },
+    "R&D Team162": {
+    "hidden": true
+  },
+    "Support Unit162": {
+    "hidden": true
+  },
+    "Intel Team162": {
+    "hidden": true
+  },
+    "Medical Team162": {
+    "hidden": true
+  },
+
+    "Explosives": {
+    "hidden": true
+  },
+    "Fulton Device": {
+    "hidden": true
+  },
+    "GZ": {
+    "hidden": true
+  },
+    "Sneaking Suits": {
+    "hidden": true
+  },
+    "Starting Arms": {
+    "hidden": true
+  },
+    "StartingDWalkies": {
+    "hidden": true
+  },
+    "StartingDWalkieAmmo": {
+    "hidden": true
+  },
+    "StartingDWalkieLoader": {
+    "hidden": true
+  },
+    "StartingHeli": {
+    "hidden": true
+  },
+    "Stun": {
+    "hidden": true
+  },
+    "DWalkiesFultons": {
+    "hidden": true
+  },
+    "DDoggyFulton": {
+    "hidden": true
+  },
+      "Funny1": {
+    "hidden": true
+  },
+      "Funny2": {
+    "hidden": true
+  },
+      "Funny3": {
+    "hidden": true
+  },
+      "Chapter 1 Mission Completes": {
+    "hidden": true
+  },
+      "Chapter 2 Mission Completes": {
+    "hidden": true
+  },
+      "Repeat Mission Completes": {
+    "hidden": true
+  },
+      "Always Enabled": {
+    "hidden": true
+  },
+      "StartyINT": {
+    "hidden": true
+  },
+      "StartyDROID": {
+    "hidden": true
+  },
+    "HomingRockets": {
+    "hidden": true
+  },
+    "Starting Research": {
+    "hidden": true
+  },
+    "Mission Completes": {
+    "hidden": true
+  },
+    "Mission Complete": {
+    "hidden": true
+  }
+}

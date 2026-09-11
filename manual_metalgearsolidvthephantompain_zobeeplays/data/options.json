@@ -1,0 +1,502 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "Main Objective",
+            "description": ["Defines the Main Goal Location:",
+                            "Defeat Sahelanthropus: Complete Mission 31: SAHELANTHROPUS",
+                            "Defeat [EXTREME] Sahelanthropus: Complete Mission 50: [EXTREME] SAHELANTHROPUS",
+                            "Complete All Missions: Complete all 51 Missions in the game",
+                            "Complete All Important Missions: Complete all Missions in the game, exempt of repeated missions with difficulty modifiers",
+                            "Found The Truth: Complete Mission 46: TRUTH: THE MAN WHO SOLD THE WORLD",
+                            "Morpho Butterfly: Collect all 10 Memento Photos for Paz, and obtain the Morpho Butterfly Photo"],
+            "hidden": false
+        },
+        "death_link": {
+            "default": true
+        },
+        "_filler_traps": {
+            "comment": "Changes a % of filler items to 3 traps enabled by other trap options. Those being the Dismiss Buddy, Stink Trap, and Demonism Traps",
+            "values": {
+                "recommended": 0
+            }
+        }
+    },
+    "user": {
+        "_commented_out_option":{
+            "type": "Toggle",
+            "default": true
+        },
+        "Disable_Mission_Unlocks":{
+            "description": ["This option removes items relating to unlocking each mission, if set to true, each mission is unlocked by completing the previous one, making you play in a linear mission order"],
+            "type": "Toggle",
+            "group": "Logic Options",
+            "default": false
+        },
+        "Mission_Tasks":{
+            "description": [
+                "This is the real meat and potatos of this randomizer.",
+                "This option adds every 'optional' mission task listed under all 51 Missions in the game",
+                "Turning this option off and Development on May or Will result in errors as not all progression items can be placed"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": true
+        },
+        "Repeat_Missions":{
+            "description": [
+                "This option adds all repeated missions into the multiworld (items and checks)",
+                "These Feature [TOTAL STEALTH], [EXTREME], and [SUBSISTENCE] Missions, These make up 12 of 51 Missions in the game."
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": true
+        },
+        "Include_Chapter_2":{
+            "description": [
+                "This option adds all missions after Mission 31"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": true
+        },
+        "Include_Development_Tree":{
+            "description": [
+                "This option adds a check for every entry on the research tree",
+                "To Support this, this also adds all relevant Materials and Team Levels required to research each item into the pool."
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": true
+        },
+        "Online_Items_and_Checks":{
+            "description": [
+                "Adds all research items that require an Internet connection to develop, while also adding the equivalant items to the pool.",
+                "This option also adds extra research team levels up to the max amount (162)",
+                "This option is not completed (WIP)"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "DLC_Items_and_Checks":{
+            "description": [
+                "Adds all research items that require owning DLC, or a Importing a Ground Zeroes Save File",
+                "This option is not completed (WIP)"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": true
+        },
+        "Include_S_Rank_Clears":{
+            "description": [
+                "Adds a Check for Completing each Mission with an S Rank, unless not aplicable"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+
+
+
+
+        "Skip_Mission_0":{
+            "description": [
+                "Setting This option on will remove the randomized checks from Mission 0",
+                "You will still start with Mission 0, but you can check off the event immediately without having to play the mission"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Combat_Deployment":{
+            "description": [
+                "Adds the 20 Important Combat Deployments as checks, these require levels of the Combat Team, and the Battle Gear item for the last 5"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Small_Diamonds":{
+            "description": [
+                "Adds all Small Diamonds as checks, including 144 Diamonds on Mother Base, 60 in Afghanistan, and 30 in Africa"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Large_Diamonds":{
+            "description": [
+                "Adds all Large Diamonds as checks, including 19 Diamonds in Afghanistan, and 17 in Africa"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Posters":{
+            "description": [
+                "Adds all Poster Locations as checks, including 2 Posters on Mother Base, 15 in Afghanistan, and 16 in Africa"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Cassettes":{
+            "description": [
+                "Adds all Collectable Cassette Locations as checks, including 41 Collectable Music Cassettes, 7 of Which you start with",
+                "This also includes 12 Aquired Tapes (to be added later)"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Blueprints":{
+            "description": [
+                "Adds all Collectable Blueprint Locations as checks"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Shipping_Labels":{
+            "description": [
+                "Adds all Collectable Shipping Labels as checks"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Include_Cargo_Containers":{
+            "description": [
+                "This does not currently do anything, but in the future would add checks on every cargo container"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "hidden": true,
+            "default": false
+        },
+        "Include_Animals":{
+            "description": [
+                "Adds extracting all Animals as checks"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false,
+            "hidden": true
+        },
+
+
+        "Require Free Roam":{
+            "description": [
+                "This Option (when false) will make requirnments so all overworld collectables must be collected inside the 50 missions, so the player will never need to enter free roam for them.",
+                "If turned on, may result in a large Sphere 1/2, as all collectables will be up for grabs at the start.",
+                "Theoretically this will also remove any check that is not included in any mission area",
+                "This option does not apply to collectables on Mother Base, or to Side Ops."
+            ],
+            "type": "Toggle",
+            "group": "Logic Options",
+            "default": false
+        },
+        "Require All Missions Cleared to Goal":{
+            "description": [
+                "This Option will add a requirnment to complete all Missions available in your seed to your Goal Location.",
+                "This Option will not do anything if your goal is All Important Missions. It also will not Apply to Goals for Both SAHELANTHROPUS Missions, or TRUTH"
+            ],
+            "type": "Toggle",
+            "group": "Additional Goal Options",
+            "default": false
+        },
+        "Require All Important Missions Cleared to Goal":{
+            "description": [
+                "This Option will add a requirnment to complete all Important Missions available in your seed to your Goal Location.",
+                "This Option is irrelivent if your Goal is All Missions Cleared. It also will not Apply to Goals for Both SAHELANTHROPUS Missions, or TRUTH"
+            ],
+            "type": "Toggle",
+            "group": "Additional Goal Options",
+            "default": false
+        },
+        "Require_SAHELANTHROPUS_Cleared_to_Goal":{
+            "description": [
+                "This Option will add a requirnment to complete Mission 31: SAHELANTHROPUS to your Goal Location."
+            ],
+            "type": "Toggle",
+            "group": "Additional Goal Options",
+            "default": false
+        },
+        "Require_EXTREME_SAHELANTHROPUS_Cleared_to_Goal":{
+            "description": [
+                "This Option will add a requirnment to complete Mission 50: [EXTREME] SAHELANTHROPUS to your Goal Location."
+            ],
+            "type": "Toggle",
+            "group": "Additional Goal Options",
+            "default": false
+        },
+        "Require_TRUTH_Cleared_to_Goal":{
+            "description": [
+                "This Option will add a requirnment to complete Mission 45: TRUTH: THE MAN WHO SOLD THE WORLD to your Goal Location."
+            ],
+            "type": "Toggle",
+            "group": "Additional Goal Options",
+            "default": false
+        },
+        "Require_Paz":{
+            "description": [
+                "This Option will have you search the multiworld for 10 Momento Photos to give to Paz on the Medical Platform.",
+                "this will also be an Extra Requirment added to your Goal Location."
+            ],
+            "type": "Toggle",
+            "group": "Additional Goal Options",
+            "default": true
+        },
+        "Logic Difficulty":{
+            "type": "Choice",
+            "description": [
+                "Chicken Hat: This Option will make checks require a lot of extra gear before tackling hard missions and tasks",
+                "Normal: Standard Difficulty, you should expect a medium/decent amount of gear before harder missions are expected to be completed",
+                "EXTREME: This option will assume that you have EXTREME patience and resolve, removing many soft requirnments for harder missions"
+            ],
+            "values": {
+                "Chicken Hat":0,
+                "Normal":1,
+                "EXTREME":2
+             },
+            "default": 1,
+            "allow_custom_value": false,
+            "group": "Logic Options"
+        },
+        "Mother_Base_Team_Levels_Split":{
+            "type": "Choice",
+            "description": [
+                "Decides on how the Progressive Team Levels are givin when Development is turned on.",
+                "The Max level of each team is 162, this number is lowered to close to what is needed in the base development tree if you have online development off, but will fill all 162 if on.",
+                "This option splits these team levels into groups, being 'Progressive R&D Team Level', '5 Progressive R&D Team Levels', '10 Progressive R&D Team Levels', and so on.",
+                "The Base Development Team is Exempt from this option, as only 4 ever fill into the pool at once"
+            ],
+            "values": {
+                "1":0,
+                "2":1,
+                "3":2,
+                "5":3,
+                "10":4,
+                "162":5
+             },
+            "default": 5,
+            "allow_custom_value": false,
+            "group": "Logic Options"
+        },
+        "Item_Unlock_Handling":{
+            "type": "Choice",
+            "description": [
+                "Determines how the Development Tree Items are recieved",
+                "Progressive: Progressive Items will be recieved, so you will always start with the lowest tier and go up",
+                "Split: Items will be recieved in specific tiers, allowing you to get Grade 5 without recieving Grade 2, this excludes unlocks that cannot be equiped at a lower Grade after researching them.",
+                "Combined: You will recieve an Item and all its Grades as 1 Item, instead of splitting them",
+                "Categories: You Will recieve unlocks as categories, all Handguns and All Uniforms, etc, as one singular item unlock"
+            ],
+            "values": {
+                "Progressive":0,
+                "Split":1,
+                "Combined":2,
+                "Categories":3
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Logic Options"
+        },
+        "WIP Locations":{
+            "description": [
+                "This Option will enable some checks that have messy requirnments that aren't implemented yet"
+            ],
+            "type": "Toggle",
+            "group": "Additional Location Options",
+            "default": false
+        },
+        "Enemy_Preparedness_Traps":{
+            "description": [
+                "Adds Trap items that raise the Enemy Preparedness of each category of the games Revenge System"
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": true
+        },
+        "Dismiss_Buddy_Trap":{
+            "description": [
+                "Adds Trap items that have you dismiss the current buddy on receiving them"
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": true
+        },
+        "Stink_Trap":{
+            "description": [
+                "Adds Trap items that make you very stinky"
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": false
+        },
+        "Demonism_Trap":{
+            "description": [
+                "Adds Trap item that Maxes out your Demon Points"
+            ],
+            "type": "Toggle",
+            "hidden": false,
+            "default": false
+        },
+        "_death_link": {
+            "comment": "Enables Death Link in the Manual Client, Recieving a deathlink generally should mean you just reload your last checkpoint from the menu.",
+            "default": true
+        },
+
+        "Development_Teams1":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+            "hidden": true,
+            "default": false
+        },
+
+        "Development_Teams2":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+            "hidden": true,
+            "default": false
+        },
+
+        "Development_Teams3":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+            "hidden": true,
+            "default": false
+        },
+
+        "Development_Teams5":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+            "hidden": true,
+            "default": false
+        },
+
+        "Development_Teams10":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+             "hidden": true,
+            "default": false
+        },
+
+        "Development_Teams162":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+            "hidden": true,
+            "default": false
+        },
+        "ProgressiveWeapons":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+             "hidden": true,
+            "default": false
+        },
+        "SplitWeapons":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+             "hidden": true,
+            "default": false
+        },
+        "CombinedWeapons":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+             "hidden": true,
+            "default": false
+        },
+        "StaticProgressiveWeapons":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+             "hidden": true,
+            "default": false
+        },
+        "StaticProgCombo":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+             "hidden": true,
+            "default": false
+        },
+        "WeaponCategories":{
+            "description": [
+                "THIS SHOULD BE HIDDEN"
+            ],
+            "type": "Toggle",
+            "group": "Hidden",
+             "hidden": true,
+            "default": false
+        },
+
+
+        "_Example_Choice":{
+            "type": "Choice",
+            "description": [
+                "This is a Choice",
+                "Let the user pick from a list of values",
+                "allow_custom_value let a player define their own text value",
+                "Currently the only use for Choice in Manual outside of hooks is the goal"
+            ],
+            "values": {
+                "start":0,
+                "test":1
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Example Options"
+        },
+        "_Example_Range":{
+            "type": "Range",
+            "description": [
+                "This is a Range",
+                "Allow the player to specify a value between 'start' and 'end'",
+                "if you include a \"values\" you can define the label for certain values",
+                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
+            ],
+            "range_start": 0,
+            "default": 1,
+            "range_end": 10,
+            "values": {"example": 2},
+            "group": "Example Options"
+        }
+    }
+
+}
