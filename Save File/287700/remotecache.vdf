@@ -1,0 +1,41 @@
+"287700"
+{
+	"ChangeNumber"		"0"
+	"ostype"		"0"
+	"TPP_CONFIG_DATA"
+	{
+		"root"		"0"
+		"size"		"2064"
+		"localtime"		"1786002033"
+		"time"		"1785906652"
+		"remotetime"		"1778410664"
+		"sha"		"48c799b814baea0a7abe26f1500c428d7c8efbf1"
+		"syncstate"		"3"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"PERSONAL_DATA"
+	{
+		"root"		"0"
+		"size"		"3088"
+		"localtime"		"1789211700"
+		"time"		"1789211700"
+		"remotetime"		"1778410549"
+		"sha"		"580b686a3a40e6d8a527c627ca1101bf845026fe"
+		"syncstate"		"3"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"TPP_GAME_DATA"
+	{
+		"root"		"0"
+		"size"		"199916"
+		"localtime"		"1789211760"
+		"time"		"1789211760"
+		"remotetime"		"1778411208"
+		"sha"		"9aa04938f9ae66e89d800c5f882e25af3c1be005"
+		"syncstate"		"3"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}

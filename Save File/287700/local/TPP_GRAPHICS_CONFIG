@@ -1,0 +1,28 @@
+{
+   "as" : "li+by9i4Abc=",
+   "graphics" : {
+      "quality_setting" : {
+         "depth_of_field" : "Enable",
+         "effect" : "High",
+         "lighting" : "High",
+         "model_detail" : "High",
+         "motion_blur_amount" : "Large",
+         "postprocess" : "High",
+         "shadow" : "Medium",
+         "ssao" : "High",
+         "texture" : "High",
+         "texture_filtering" : "Medium",
+         "volumetric_clouds" : "Off"
+      },
+      "version" : 1,
+      "videoout_setting" : {
+         "display_index" : 0,
+         "framerate_control" : "Auto",
+         "height" : 1080,
+         "vsync" : "Enable",
+         "width" : 1920,
+         "window_mode" : "Windowed"
+      }
+   },
+   "project" : "tpp"
+}
