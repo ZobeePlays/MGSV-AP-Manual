@@ -27,7 +27,7 @@ Proceed with standard Archipelago generation setup and play to your hearts conte
 (Note that most of these hooks only work when in the ACC)  
 Important Items:  
 Buddy Bond Menu -> Change Bond Points  
-Player Restrictions Menu -> Disable fulton action -> Used to completely disable the ability to fulton until the FULTON DEVICE item is found  
+Player Restrictions Menu -> Disable fulton action -> Used to completely disable the ability for snake to fulton until the FULTON DEVICE item is found  
   
 If developed unintentionally:  
 Player Restrictions Menu -> Fulton levels menu -> Used to Set Fulton ammo Levels (and wormhole)  
