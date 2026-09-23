@@ -3,7 +3,7 @@ from collections.abc import Callable, Sequence, Set
 from typing import Any, Tuple
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState, Item
-from options import PerGameCommonOptions
+from Options import PerGameCommonOptions
 from collections import defaultdict
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
