@@ -11549,7 +11549,7 @@
     "name": "Ditadi Abandoned Village South Guard Post: Blueprint on table in tent [Isando RGL-220]",
     "region": "Africa Free Roam",
     "category": [
-      "Blueprint", "Ditadi Abandoned Village South Guard Post", "Mission 15", "Mission 26", "Mission 29", "Mission 26", "Mission 36", "Mission 37", "Mission 41"
+      "Blueprint", "Ditadi Abandoned Village South Guard Post", "Mission 15", "Mission 26", "Mission 29", "Mission 36", "Mission 37", "Mission 41"
     ],
     "requires": "{YamlEnabled(Require Free Roam)} OR ({Mission15()} OR {Mission16()} OR {Mission19()} OR {Mission26()} OR {Mission36()} OR {Mission37()} OR {Mission41()})",
     "sort-key": "1093"

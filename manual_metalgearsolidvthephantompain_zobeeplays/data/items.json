@@ -917,21 +917,8 @@
     ],
     "progression_skip_balancing": true
   },
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    {
+
+  {
     "count": "13",
     "name": "5 Progressive Combat Unit Levels",
     "category": [
@@ -8527,7 +8514,6 @@
 
 
 
-
   {
     "count": 1,
     "name": "OLIVE DRAB (Uniform)",
@@ -8612,6 +8598,26 @@
     "filler": true
   },
   
+
+
+  {
+    "count": 1,
+    "name": "BANDANA (Uniform)",
+    "category": [
+      "Uniforms - Head", "Static Progressive Weapons"
+    ],
+    "useful": true
+  },
+  
+  {
+    "count": 1,
+    "name": "INFINITY BANDANA (Uniform)",
+    "category": [
+      "Uniforms - Head", "Static Progressive Weapons"
+    ],
+    "useful": true
+  },
+
 {
     "count": "3",
     "name": "Progressive SNEAKING SUIT (Uniform)",
@@ -8742,7 +8748,9 @@
     "useful": true
   },
   
-  
+
+
+
   {
     "count": 1,
     "name": "LEATHER JACKET (Uniform)",
@@ -8769,25 +8777,99 @@
     ],
     "useful": true
   },
-  
+
   {
     "count": 1,
-    "name": "BANDANA (Uniform)",
+    "name": "NAKED (SILVER) (Uniform)",
     "category": [
-      "Uniforms - Head", "Static Progressive Weapons"
+      "Uniforms - Uniforms", "Static Progressive Weapons"
     ],
-    "useful": true
+    "filler": true
   },
   
   {
     "count": 1,
-    "name": "INFINITY BANDANA (Uniform)",
+    "name": "NAKED (GOLD) (Uniform)",
     "category": [
-      "Uniforms - Head", "Static Progressive Weapons"
+      "Uniforms - Uniforms", "Static Progressive Weapons"
+    ],
+    "filler": true
+  },
+
+
+
+
+
+  {
+    "count": "1",
+    "name": "SV-SNEAKING SUIT (Uniform)",
+    "category": [
+      "Uniforms - Uniforms",
+      "Sneaking Suits",
+      "DLC", "GZ", "Static Progressive Weapons"
+    ],
+    "progression_skip_balancing": true
+  },
+  
+  {
+    "count": "1",
+    "name": "SOLID SNAKE (Uniform)",
+    "category": [
+      "Uniforms - Uniforms",
+      "Sneaking Suits",
+      "DLC", "GZ", "Static Progressive Weapons"
+    ],
+    "progression_skip_balancing": true
+  },
+
+
+
+  {
+    "count": "1",
+    "name": "GRAY URBAN (Uniform)",
+    "category": [
+      "Uniforms - Uniforms", "DLC", "Static Progressive Weapons"
+    ],
+    "filler": true
+  },
+  {
+    "count": "1",
+    "name": "BLUE URBAN (Uniform)",
+    "category": [
+      "Uniforms - Uniforms", "DLC", "Static Progressive Weapons"
+    ],
+    "filler": true
+  },
+  {
+    "count": "1",
+    "name": "APD (Uniform)",
+    "category": [
+      "Uniforms - Uniforms", "DLC", "Static Progressive Weapons"
+    ],
+    "filler": true
+  },
+  {
+    "count": "1",
+    "name": "BLACK OCELOT (Uniform)",
+    "category": [
+      "Uniforms - Uniforms", "DLC", "Static Progressive Weapons"
     ],
     "useful": true
   },
-  
+
+
+
+
+  {
+    "count": 1,
+    "name": "TUXEDO (Uniform)",
+    "category": [
+      "Uniforms - Uniforms",
+      "DLC", "Static Progressive Weapons"
+    ],
+    "filler": true
+  },
+
   {
     "count": 1,
     "name": "Fatigues (NS) (Uniform)",
@@ -8849,55 +8931,8 @@
     "filler": true
   },
   
-  {
-    "count": "1",
-    "name": "SV-SNEAKING SUIT (Uniform)",
-    "category": [
-      "Uniforms - Uniforms",
-      "Sneaking Suits",
-      "DLC", "GZ", "Static Progressive Weapons"
-    ],
-    "progression_skip_balancing": true
-  },
+
   
-  {
-    "count": "1",
-    "name": "SOLID SNAKE (Uniform)",
-    "category": [
-      "Uniforms - Uniforms",
-      "Sneaking Suits",
-      "DLC", "GZ", "Static Progressive Weapons"
-    ],
-    "progression_skip_balancing": true
-  },
-  
-  {
-    "count": 1,
-    "name": "TUXEDO (Uniform)",
-    "category": [
-      "Uniforms - Uniforms",
-      "DLC", "Static Progressive Weapons"
-    ],
-    "filler": true
-  },
-  
-  {
-    "count": 1,
-    "name": "NAKED (SILVER) (Uniform)",
-    "category": [
-      "Uniforms - Uniforms", "Static Progressive Weapons"
-    ],
-    "filler": true
-  },
-  
-  {
-    "count": 1,
-    "name": "NAKED (GOLD) (Uniform)",
-    "category": [
-      "Uniforms - Uniforms", "Static Progressive Weapons"
-    ],
-    "filler": true
-  },
 
 
 

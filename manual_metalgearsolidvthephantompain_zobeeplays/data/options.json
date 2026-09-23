@@ -347,10 +347,6 @@
             "hidden": false,
             "default": false
         },
-        "_death_link": {
-            "comment": "Enables Death Link in the Manual Client, Recieving a deathlink generally should mean you just reload your last checkpoint from the menu.",
-            "default": true
-        },
 
         "Development_Teams1":{
             "description": [
